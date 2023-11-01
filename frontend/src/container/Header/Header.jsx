@@ -34,7 +34,7 @@ const Header = () => (
 
         <div className="tag-cmp app__flex">
           <p className="p-text">Data Engineer</p>
-          <p className="p-text">Web Developer</p>
+          <p className="p-text"> Data Enthusiastic</p>
         </div>
       </div>
     </motion.div>
@@ -59,7 +59,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.django, images.mysql, images.python].map((circle, index) => (
+      {[ images.powerbi, images.python, images.database].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>

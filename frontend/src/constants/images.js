@@ -22,6 +22,7 @@ import django from '../assets/django.png';
 import mysql from '../assets/mysql.png';
 import powerbi from '../assets/powerbi.png';
 import excel from '../assets/Excel.png';
+import flask from '../assets/flask.png'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -39,6 +40,7 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import database from '../assets/database1.png';
 
 const images = {
   email,
@@ -49,7 +51,9 @@ const images = {
   cpp,
   css,
   figma,
+  database,
   flutter,
+  flask,
   git,
   graphql,
   django,
